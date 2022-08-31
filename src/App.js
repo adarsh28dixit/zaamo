@@ -14,7 +14,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/:id' element={<DetailPage />} />
       </Routes>
-      <Footer />
+      
     </div>
     </BrowserRouter>
   );
